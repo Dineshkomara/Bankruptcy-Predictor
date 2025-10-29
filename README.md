@@ -35,8 +35,8 @@ Follow these steps to get the application running on your local machine.
 
 ```bash
 # If your project is in a git repository
-git clone <your-repository-url>
-cd practice
+git clone <https://github.com/Dineshkomara/Bankruptcy-Predictor.git>
+cd Bankruptcy Predictor
 ```
 
 ### 2. Create and Activate a Virtual Environment
