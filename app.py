@@ -47,5 +47,11 @@ async def predict(request: Request,
 
     return templates.TemplateResponse("index.html", {
         "request": request,
-        "final_result": f"Final Prediction (by Voting): {final_label}"
+        "final_result": f"Final Prediction (by Voting): {final_label}",
+        "industrial_risk": industrial_risk,
+        "management_risk": management_risk,
+        "financial_flexibility": financial_flexibility,
+        "credibility": credibility,
+        "competitiveness": competitiveness,
+        "operating_risk": operating_risk
     })

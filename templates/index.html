@@ -29,49 +29,49 @@
             <div class="form-group">
                 <label for="industrial_risk">Industrial Risk:</label>
                 <select id="industrial_risk" name="industrial_risk" required>
-                    <option value="0">Low</option>
-                    <option value="0.5">Medium</option>
-                    <option value="1">High</option>
+                    <option value="0" {% if industrial_risk == 0 %}selected{% endif %}>Low</option>
+                    <option value="0.5" {% if industrial_risk == 0.5 %}selected{% endif %}>Medium</option>
+                    <option value="1" {% if industrial_risk == 1 %}selected{% endif %}>High</option>
                 </select>
             </div>
             <div class="form-group">
                 <label for="management_risk">Management Risk:</label>
                 <select id="management_risk" name="management_risk" required>
-                    <option value="0">Low</option>
-                    <option value="0.5">Medium</option>
-                    <option value="1">High</option>
+                    <option value="0" {% if management_risk == 0 %}selected{% endif %}>Low</option>
+                    <option value="0.5" {% if management_risk == 0.5 %}selected{% endif %}>Medium</option>
+                    <option value="1" {% if management_risk == 1 %}selected{% endif %}>High</option>
                 </select>
             </div>
             <div class="form-group">
                 <label for="financial_flexibility">Financial Flexibility:</label>
                 <select id="financial_flexibility" name="financial_flexibility" required>
-                    <option value="0">Low</option>
-                    <option value="0.5">Medium</option>
-                    <option value="1">High</option>
+                    <option value="0" {% if financial_flexibility == 0 %}selected{% endif %}>Low</option>
+                    <option value="0.5" {% if financial_flexibility == 0.5 %}selected{% endif %}>Medium</option>
+                    <option value="1" {% if financial_flexibility == 1 %}selected{% endif %}>High</option>
                 </select>
             </div>
             <div class="form-group">
                 <label for="credibility">Credibility:</label>
                 <select id="credibility" name="credibility" required>
-                    <option value="0">Low</option>
-                    <option value="0.5">Medium</option>
-                    <option value="1">High</option>
+                    <option value="0" {% if credibility == 0 %}selected{% endif %}>Low</option>
+                    <option value="0.5" {% if credibility == 0.5 %}selected{% endif %}>Medium</option>
+                    <option value="1" {% if credibility == 1 %}selected{% endif %}>High</option>
                 </select>
             </div>
             <div class="form-group">
                 <label for="competitiveness">Competitiveness:</label>
                 <select id="competitiveness" name="competitiveness" required>
-                    <option value="0">Low</option>
-                    <option value="0.5">Medium</option>
-                    <option value="1">High</option>
+                    <option value="0" {% if competitiveness == 0 %}selected{% endif %}>Low</option>
+                    <option value="0.5" {% if competitiveness == 0.5 %}selected{% endif %}>Medium</option>
+                    <option value="1" {% if competitiveness == 1 %}selected{% endif %}>High</option>
                 </select>
             </div>
             <div class="form-group">
                 <label for="operating_risk">Operating Risk:</label>
                 <select id="operating_risk" name="operating_risk" required>
-                    <option value="0">Low</option>
-                    <option value="0.5">Medium</option>
-                    <option value="1">High</option>
+                    <option value="0" {% if operating_risk == 0 %}selected{% endif %}>Low</option>
+                    <option value="0.5" {% if operating_risk == 0.5 %}selected{% endif %}>Medium</option>
+                    <option value="1" {% if operating_risk == 1 %}selected{% endif %}>High</option>
                 </select>
             </div>
             <br><br>
